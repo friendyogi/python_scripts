@@ -7,7 +7,7 @@ from datadog import initialize
 #           group by aws account Id
 #           group by tags like project, stack, etc.
 #           group by instance state like running, stopped, etc.
-# Then post the results to DataDog metrics using DataDog REST API Client
+# Then post the results to DataDog metrics using DataDog REST API Client api.Metric.send
 
 # Your datadop api key here:
 options = {
