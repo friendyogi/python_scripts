@@ -8,6 +8,7 @@ import boto3
 from datadog import initialize
 #from collections import Counter
 
+# Your datadop api key here:
 options = {
     'api_key':'xxx'
 }
@@ -17,7 +18,7 @@ initialize(**options)
 # Use Datadog REST API client
 from datadog import api
 
-# EU, DS, Dev, PROD
+# Your AWS Keys here
 keys=['xxx',
       'xxx',
       'xxx',
