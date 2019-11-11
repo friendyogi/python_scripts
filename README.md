@@ -7,6 +7,14 @@
 
 > Blockquotes
 
+`code here`
+
+    code here
+
+```python
+python code here
+```
+
 Paragraphs and Line Breaks
 
 ~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
